@@ -9,48 +9,49 @@ Original Author: Eric.McLaughlin@Alumni.StonyBrook.edu
 
 Updated Mod Features
 
-		Kits (BG:EE/BG2:EE/IWD:EE):											Class:			Status:		
-		Abyssal Warrior - Chaotic Neutral/Evil, Tiefling warrior with minor demonic abilities.				Fighter kit*		Unknown
+	Kits (BG:EE/BG2:EE/IWD:EE):											Class:			Status:	
+	Abyssal Warrior - Chaotic Neutral/Evil, Tiefling warrior with minor demonic abilities.				Fighter kit*		Unknown
 
-		Bladesinger - Good, Elf, Fighter/Mage specializing in arcane magic & single-weapon style.			Fighter/Mage*		Unknown
+	Bladesinger - Good, Elf, Fighter/Mage specializing in arcane magic & single-weapon style.			Fighter/Mage*		Unknown
 
-		Eldritch Knight - Any alignment, Elf/Half-Elf Fighter/Mage w/ Green-Flame Blade & Booming Blade cantrips.	Fighter/Mage kit*	Unknown
+	Eldritch Knight - Any alignment, Elf/Half-Elf Fighter/Mage w/ Green-Flame Blade & Booming Blade cantrips.	Fighter/Mage kit*	Unknown
 
-		Herbalist - Good, Elf/Half-Elf Priest of the Seldarine w/ Druidic influence.					Cleric kit		Unknown
+	Herbalist - Good, Elf/Half-Elf Priest of the Seldarine w/ Druidic influence.					Cleric kit		Unknown
 
-		Priest of Mystra - Good/Neutral, Half-Elf, Cleric/Mage kit.							Cleric/Mage kit*	Unknown
+	Priest of Mystra - Good/Neutral, Half-Elf, Cleric/Mage kit.							Cleric/Mage kit*	Unknown
 
-		Priestess of Lolth - Chaotic Evil, Female, Drow Priestess of the Demon Queen of Spiders.			Cleric kit*		Unknown
+	Priestess of Lolth - Chaotic Evil, Female, Drow Priestess of the Demon Queen of Spiders.			Cleric kit*		Unknown
 		
-		Undead Hunter - Paladin kit usually restricted to humans, enables elven baseclass paladins and undead hunters.	Paladin kit*		Unknown
+	Undead Hunter - Paladin kit usually restricted to humans, enables elven baseclass paladins and undead hunters.	Paladin kit*		Unknown
 
-		War Wizard - Good/Neutral, Elf, Fighter/Mage w/ defensive passives and offensive innates.			Fighter/Mage kit*	Unknown
+	War Wizard - Good/Neutral, Elf, Fighter/Mage w/ defensive passives and offensive innates.			Fighter/Mage kit*	Unknown
 
-		Wilderness Runner - Chaotic Good, Elf, Ranger more in-tune with nature, but less civilized.			Ranger kit		Unknown
+	Wilderness Runner - Chaotic Good, Elf, Ranger more in-tune with nature, but less civilized.			Ranger kit		Unknown
 
-		Windrider - Good, Elf, aerial cavalry w/ Armor Class and Proficiency penalties.					Fighter kit		Unknown
+	Windrider - Good, Elf, aerial cavalry w/ Armor Class and Proficiency penalties.					Fighter kit		Unknown
 
 
-		Items/Spells:																Status:
-		EE: Item Expansion [BETA]** - Adds numerous items to existing merchants; includes High Level Abilities (HLAs) for BGEE, but not SoD.	Unknown
-		
-		Congenio's Pebble Collection*** - Allows multiple Ioun stones to stack without using any equipment slots. 				Unknown
+	Items/Spells:																Status:
+	EE: Item Expansion [BETA]** - Adds numerous items to existing merchants; includes High Level 						Unknown
+	Abilities (HLAs) for BGEE, but not SoD.	
+	
+	Congenio's Pebble Collection*** - Allows multiple Ioun stones to stack without using any equipment 					Unknown
+	slots. 				
 
-*   Kit descriptions are more or less directly from AD&D 2E PHBs, not everything is my own work.  Full kit descriptions at bottom. Pre-2.0 multiclass 
-    kits and their tomes will not be updated, and in all likelihood will be removed.
-**  Enhanced Edition Item Expansions and HLAs are reasonably tested, but still in progress.  Inadvisable to uninstall with an active playthrough.
-*** Ioun stones that use Opcode "Stat: Maximum HP Modifier [18]" work differently than others. In order for the HP modifier to be removed when the Ioun 
-    stone is, the HP modifier cannot be saved and loaded. In other words, if you save with the Pale Green Ioun Stone and/or Wong Fei's Ioun Stone 
-    equipped in orbit, you must equip them again upon loading to receive the HP modifier.
+*   	Kit descriptions are more or less directly from AD&D 2E PHBs, not everything is my own work.  Full kit descriptions at bottom. Pre-2.0 multiclass 
+    	kits and their tomes will not be updated, and in all likelihood will be removed.
+**  	Enhanced Edition Item Expansions and HLAs are reasonably tested, but still in progress.  Inadvisable to uninstall with an active playthrough.
+*** 	Ioun stones that use Opcode "Stat: Maximum HP Modifier [18]" work differently than others. In order for the HP modifier to be removed when the Ioun 
+    	stone is, the HP modifier cannot be saved and loaded. In other words, if you save with the Pale Green Ioun Stone and/or Wong Fei's Ioun Stone 
+    	equipped in orbit, you must equip them again upon loading to receive the HP modifier.
 
-Instructions: 
-	(1) Download Eldritch_Magic folder to game directory (BGEE = 00766, BG2EE = 00783, IWDEE = 00798, SoD = 00806).
-	(2) Move setup-Eldritch_Magic.exe (WeiDU v239) from mod folder to 00766/00783/00798/00806 if necessary and run the application.
-            Alternatively, download latest version of WeiDU and rename executable to setup-Eldritch_Magic.exe. Move
-            to game directory and run application as usual.
-	(3) Choose which components to install. The mod currently only features English.
+Instructions 
 
-Kit Descriptions:
+(1) Download Eldritch_Magic folder to game directory (BGEE = 00766, BG2EE = 00783, IWDEE = 00798, SoD = 00806).
+(2) Move setup-Eldritch_Magic.exe (WeiDU v239) from mod folder to 00766/00783/00798/00806 if necessary and run the application.  Alternatively, download latest version of WeiDU and rename executable to setup-Eldritch_Magic.exe. Move to game directory and run application as usual.
+(3) Choose which components to install. The mod currently only features English.
+
+Kit Descriptions
 
 ABYSSAL WARRIOR: Those cutters hardy enough to not only survive but thrive in the deadly realms of the Abyss among the pain-inflicting, death-dealing tanar'ri are a tough breed indeed. The Abyss shows no kindness to wizards, but a blood who's good with a sword or axe is useful to the plane's lords and worthy of some respect. That which remains useful in that horrible place stays alive. Abyssal warriors are the mortal fighters who serve in the Blood War, guard tanar'ri palaces, and work as mercenaries in those Abyssal towns where planars can survive.
 
