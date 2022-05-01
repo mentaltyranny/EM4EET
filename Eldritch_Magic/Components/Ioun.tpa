@@ -1,4 +1,4 @@
-ACTION_IF GAME_IS ~bgee bg2ee~ BEGIN
+ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
 COPY ~Eldritch_Magic/ITM/Ioun/bdioun01.itm~ ~override~ // Trollblood Ioun Stone
   SAY NAME1 @74 // Ioun Stone
   SAY NAME2 @76

@@ -6,7 +6,7 @@ SET_2DA_ENTRY 	8	3	5	RESOLVE_STR_REF(@16) // tiefling race description
 SET_2DA_ENTRY	8	4	5	RESOLVE_STR_REF(@17) // Tiefling
 SET_2DA_ENTRY 	8	5	5	RESOLVE_STR_REF(@18) // tiefling bio
 END
-ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 COPY_EXISTING ~racetext.2da~ ~override~
 SET_2DA_ENTRY	8	2	5	RESOLVE_STR_REF(@19) // vampire
 SET_2DA_ENTRY 	8	3	5	RESOLVE_STR_REF(@20)
@@ -132,7 +132,7 @@ COPY ~Eldritch_Magic/ITM/IWDEE/EMABPLAT.itm~    ~override~ // Abyssal Plate Mail
   SAY DESC @228
 END
 
-ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 COPY ~Eldritch_Magic/ITM/EMOBYRIT.itm~    ~override~ // Obyrithian Executioner
   SAY NAME1 ~~
   SAY NAME2 @138

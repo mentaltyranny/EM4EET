@@ -8,7 +8,7 @@
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME SODSTRTA.2da BEGIN
 //COPY_EXISTING ~SODSTRTA.2da~ ~override~
-//ACTION_IF GAME_IS ~bg2ee~ BEGIN
+//ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 //COPY_EXISTING ~STARTARE.2da~ ~override~
 //SET_2DA_ENTRY   10     2     2     161000
 //SET_2DA_ENTRY   11     2     2     -1
@@ -26,7 +26,7 @@ COPY  ~Eldritch_Magic/2DA/STARTARE.2DA~   ~override~
 COPY  ~Eldritch_Magic/2DA/STARTBP.2DA~   ~override~
 COPY  ~Eldritch_Magic/2DA/SODSTRTA.2DA~   ~override~
 END
-ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 COPY  ~Eldritch_Magic/2DA/BG2EE/STARTARE.2DA~   ~override~
 COPY  ~Eldritch_Magic/2DA/BG2EE/STARTBP.2DA~   ~override~
 END

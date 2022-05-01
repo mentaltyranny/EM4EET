@@ -121,7 +121,7 @@ COPY ~Eldritch_Magic/2DA/EMCLABEK.2da~   ~override~
 COPY_EXISTING ~INN2616.sto~              ~override~
  ADD_STORE_ITEM ~EMEK~ LAST #1 #0 #0 ~IDENTIFIED~ #1
 END
-ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 COPY ~Eldritch_Magic/2DA/BG2EE/EMCLABEK.2da~   ~override~
 COPY_EXISTING ~RIBALD.sto~ ~override~
  ADD_STORE_ITEM ~EMEK~ LAST #1 #0 #0 ~IDENTIFIED~ #1
