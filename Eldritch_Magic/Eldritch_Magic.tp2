@@ -151,16 +151,18 @@ INCLUDE ~Eldritch_Magic/Components/600_Undead_Hunter.tpa~
 BEGIN ~Bladesinger~ DESIGNATED 700
 GROUP @101
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Bladesinger~
+// SUBCOMPONENT ~Bladesinger~
 
 INCLUDE ~Eldritch_Magic/Components/700_Bladesinger.tpa~
 ///////////////////////////////////////////////////////
+/*
 BEGIN ~Bladesinger (Pre-2.0) Bard Kit - Not Recommended with Elven Minstrel or other Bards~ DESIGNATED 799
 GROUP @101
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
 SUBCOMPONENT ~Bladesinger~
 
 INCLUDE ~Eldritch_Magic/Components/799_Bladesinger.tpa~
+*/
 ///////////////////////////////////////////////////////
 
 BEGIN ~Eldritch Knight~ DESIGNATED 701
