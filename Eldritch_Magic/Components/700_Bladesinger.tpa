@@ -140,7 +140,7 @@ COPY  ~Eldritch_Magic/Spells/embs3g.spl~   ~override~
       SAY 0x50 @131
 COPY  ~Eldritch_Magic/Spells/embsong.spl~   ~override~
 
-ACTION_IF GAME_IS ~bgee eet~ BEGIN
+ACTION_IF GAME_IS ~bgee~ BEGIN
   STRING_SET 25046 @1000
 END
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
