@@ -114,7 +114,6 @@ END
 
 // Adds Bladesinger's custom CLAB spells.
 COPY  ~Eldritch_Magic/Spells/emac1.spl~   ~override~
-COPY  ~Eldritch_Magic/Spells/emsee.spl~   ~override~
 COPY  ~Eldritch_Magic/Spells/emfm.spl~   ~override~
 
 // SWS Grand Mastery
