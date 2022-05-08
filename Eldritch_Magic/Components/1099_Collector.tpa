@@ -40,7 +40,7 @@ COPY ~Eldritch_Magic/ITM/EMCOLLEC.itm~   ~override~ // Manual of Artifact Collec
   SAY NAME2 @298
   SAY UNIDENTIFIED_DESC ~~
   SAY DESC @2
-ACTION_IF GAME_IS ~bgee~ BEGIN
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
 COPY_EXISTING ~INN2616.sto~ ~override~
  ADD_STORE_ITEM ~EMCOLLEC~ LAST #1 #0 #0 ~IDENTIFIED~ #1
 END

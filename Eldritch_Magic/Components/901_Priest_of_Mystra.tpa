@@ -93,7 +93,7 @@ COPY ~Eldritch_Magic/ITM/EMMP.itm~   ~override~ // Wizard-Clerics of Mystra
   SAY NAME2 @293
   SAY UNIDENTIFIED_DESC ~~
   SAY DESC @8
-ACTION_IF GAME_IS ~bgee~ BEGIN
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
 COPY_EXISTING ~INN2616.sto~ ~override~
  ADD_STORE_ITEM ~EMMP~ LAST #1 #0 #0 ~IDENTIFIED~ #1
 END

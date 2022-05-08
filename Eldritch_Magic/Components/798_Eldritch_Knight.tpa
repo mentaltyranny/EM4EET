@@ -116,7 +116,7 @@ COPY ~Eldritch_Magic/ITM/EMEK.itm~   ~override~ // Tome of Eldritch Secrets
 COMPILE ~Eldritch_Magic/BAF/EMEK.baf~   ~override~
 COMPILE ~Eldritch_Magic/BAF/EMELRITC.baf~   ~override~
 COPY ~Eldritch_Magic/Creatures/EMEK.cre~   ~override~
-ACTION_IF GAME_IS ~bgee~ BEGIN
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
 COPY ~Eldritch_Magic/2DA/EMCLABEK.2da~   ~override~
 COPY_EXISTING ~INN2616.sto~              ~override~
  ADD_STORE_ITEM ~EMEK~ LAST #1 #0 #0 ~IDENTIFIED~ #1

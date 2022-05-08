@@ -40,7 +40,7 @@ COPY ~Eldritch_Magic/ITM/EMSPY.itm~   ~override~ // Infiltrator's Manuscripts
   SAY NAME2 @300
   SAY UNIDENTIFIED_DESC ~~
   SAY DESC @7 
-ACTION_IF GAME_IS ~bgee~ BEGIN
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
 COPY_EXISTING ~INN2616.sto~ ~override~
  ADD_STORE_ITEM ~EMSPY~ LAST #1 #0 #0 ~IDENTIFIED~ #1
 END
