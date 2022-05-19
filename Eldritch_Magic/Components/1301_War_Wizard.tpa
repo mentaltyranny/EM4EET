@@ -48,8 +48,10 @@ COPY ~Eldritch_Magic/ITM/EMWARWIZ.itm~   ~override~ // The Elven Arts of War and
   SAY NAME2 @287
   SAY UNIDENTIFIED_DESC ~~
   SAY DESC @12
-ACTION_IF GAME_IS ~bgee eet~ BEGIN
+ACTION_IF GAME_IS ~bgee~ BEGIN
 COPY ~Eldritch_Magic/2DA/EMCLABWW.2da~   ~override~
+END
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
 COPY_EXISTING ~INN2616.sto~ ~override~
  ADD_STORE_ITEM ~EMWARWIZ~ LAST #1 #0 #0 ~IDENTIFIED~ #1
 END
