@@ -1,4 +1,4 @@
-[MOD] EM4EET v0.01a
+[MOD] Eldritch Magic EET v0.01a
 
 BG:EET v13.4
 
