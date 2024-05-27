@@ -658,10 +658,10 @@ COPY ~Eldritch_Magic/Spells/BG2EE/SPWI922.spl~ ~override~ // Dragon's Breath
 COPY ~Eldritch_Magic/Spells/BG2EE/SPWI923.spl~ ~override~ // Summon Planetar
   SAY 0x8  @1037
   SAY 0x50 @1038
-COPY ~Eldritch_Magic/Spells/BG2EE/SPWI924.spl~ ~override~ // Summon Dark Planetar
+COPY ~Eldritch_Magic/Spells/BG2EE/OHWI924.spl~ ~override~ // Summon Dark Planetar
   SAY 0x8  @1039
   SAY 0x50 @1040
-COPY ~Eldritch_Magic/Spells/BG2EE/SPWI925.spl~ ~override~ // Comet
+COPY ~Eldritch_Magic/Spells/BG2EE/OHWI925.spl~ ~override~ // Comet
   SAY 0x8  @1041
   SAY 0x50 @1042
 // Monk HLAs
