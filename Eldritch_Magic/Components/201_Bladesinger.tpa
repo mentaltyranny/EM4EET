@@ -1,4 +1,3 @@
-// Enables elven bards
 COPY_EXISTING ~clsrcreq.2da~ ~override~
   COUNT_2DA_ROWS 8 rows
   FOR (row = 0 ; row < rows ; ++row) BEGIN
@@ -247,7 +246,7 @@ COPY ~Eldritch_Magic/ITM/BGEE/potn12.itm~ ~override~ //
 COPY ~Eldritch_Magic/ITM/BGEE/ring08.itm~ ~override~ //
 END
 
-ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
   STRING_SET 34174 @1000
 COPY ~Eldritch_Magic/ITM/BG2EE/clck09.itm~ ~override~ //
 COPY ~Eldritch_Magic/ITM/BG2EE/clck10.itm~ ~override~ //
@@ -292,6 +291,57 @@ COPY ~Eldritch_Magic/ITM/BG2EE/potn09.itm~ ~override~ //
 COPY ~Eldritch_Magic/ITM/BG2EE/potn11.itm~ ~override~ //
 COPY ~Eldritch_Magic/ITM/BG2EE/potn12.itm~ ~override~ //
 COPY ~Eldritch_Magic/ITM/BG2EE/ring08.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/ring40.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/WA2ROBE.itm~ ~override~ //
+END
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+  STRING_SET 34174 @1000
+COPY ~Eldritch_Magic/ITM/BG2EE/clck09.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck10.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck11.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck12.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck13.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck14.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck15.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck18.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/clck19.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm01.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm02.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm03.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm04.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm05.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm06.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm07.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm08.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm09.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm10.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm11.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm12.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm13.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm14.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm15.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BGEE/HELM15_.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm16.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm17.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm21.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm22.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm28.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm29.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm30.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm31.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm32.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/helm33.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn03.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn04.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn05.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn06.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn07.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn09.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn11.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/potn12.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BG2EE/ring08.itm~ ~override~ //
+COPY ~Eldritch_Magic/ITM/BGEE/RING08_.itm~ ~override~ //
 COPY ~Eldritch_Magic/ITM/BG2EE/ring40.itm~ ~override~ //
 COPY ~Eldritch_Magic/ITM/BG2EE/WA2ROBE.itm~ ~override~ //
 END
