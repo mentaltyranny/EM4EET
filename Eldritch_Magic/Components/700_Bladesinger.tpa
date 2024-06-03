@@ -1,3 +1,4 @@
+/** @tra setup.tra */
 ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
   ACTION_IF NOT FILE_EXISTS_IN_GAME ~K_FM_E.2da~ BEGIN
     COPY ~Eldritch_Magic/2DA/K_FM_E.2da~ ~override~

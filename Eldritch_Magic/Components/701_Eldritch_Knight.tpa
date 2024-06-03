@@ -1,3 +1,4 @@
+/** @tra setup.tra */
 ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
 ADD_KIT ~EM_ELDRITCH_KNIGHT~ /* this is the "internal" name of your kit, like BERSERKER or LATHANDER */
   ~EM_ELDRITCH_KNIGHT                1           1           1           1           1           1           1           1~ /* this line is appened to CLASWEAP.2DA */
@@ -148,7 +149,7 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
 COPY_EXISTING ~INN2616.sto~              ~override~
  ADD_STORE_ITEM ~EMEK~ LAST #1 #0 #0 ~IDENTIFIED~ #1
 END
-ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
 COPY ~Eldritch_Magic/2DA/BG2EE/EMCLABEK.2da~   ~override~
 COPY_EXISTING ~RIBALD.sto~ ~override~
  ADD_STORE_ITEM ~EMEK~ LAST #1 #0 #0 ~IDENTIFIED~ #1
