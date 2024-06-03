@@ -1,0 +1,4 @@
+mls:
+  translation:
+    directory: Eldritch_Magic\languages\english
+    auto_tra: true                         # optional, if not specified defaults to true
