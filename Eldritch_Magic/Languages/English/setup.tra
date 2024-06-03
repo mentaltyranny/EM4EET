@@ -70,15 +70,6 @@ Their defense is equal to their level divided by 2, plus 1. All fractions are ro
 
 4. The training is hard enough that only a 3rd-level Bladesinger can begin to teach even the rudiments of the bladesong. If another elf wishes to learn the bladesong, he must seek one of the masters of the blade. Bladesingers charge a high price for sharing their skills.
 
-BLADESINGING:
-Although the cost is rather steep to learn bladesinging, its practitioners swear by it. Its wide versatility often astounds those who are not familiar with its intricacies. The things even an amateur bladesinger can do with one blade echo tricks that accomplished warriors can do with two, or with a weapon and shield. Those elves willing to devote two slots to learning the rudiments of bladesinging gain the use of the following benefits:
-1. They may gain a +1 bonus to their AC or, if they wish to spend an extra slot, may boost this bonus to +2 to their AC. That is the highest bonus those who choose blade-singing as an additional skill can attain. Or
-2. They may gain a +1 to hit or, if they wish to spend an extra slot, may boost this to a +2 to attack. As with the AC bonus, +2 is the best they can hope for. Or
-3. They may attack and parry in that same round, without wasting any additional attacks. Note that these three benefits are not cumulative; that is, practitioners cannot use all three at once. However, they do have the option of varying between these three options during the course of a combat.
-
-Disadvantages:
-The most obvious disadvantage to acquiring the bladesinging weapon style is that a character cannot carry a shield and practice the style at the same time. This technique requires far too much concentration on movement and flow, and the shield gets in the way of the grace and balance necessary to successfully use the style. A more esoteric disadvantage is that this style is most often used by loners-solitary individuals who have no desire to be part of a group. Rarely, this technique may be practiced by someone whose companions will part company with the PC for a decade. Since bladesinging is a very demanding style, the training is intense, difficult, and, above all, long. Therefore, a PC would be well advised to study this style in his or her early years before joining up with a group of adventurers-or else develop some long-lived and understanding friends.
-
 Special Hindrances: To offset their abilities, Bladesingers suffer some severe penalties. Not only must they attempt to advance the cause of elvendom somehow at all times, they must also lend aid to any elf in need. Unless the elf is proven to be an enemy of the elven way of life, the Bladesinger must sacrifice life and limb to save that elf's life. Of course, the Bladesinger is free to determine whether there is, in fact, an elf in danger.
 Bladesingers are so devoted to their chosen weapon that they can never learn another one. Unlike other elves, they do not gain a +1 to attack rolls with a bow. With all other weapons, they suffer a -1 penalty to attack rolls, even if they have taken it as a proficiency. If they have not devoted the slot to learn the weapon, the Bladesinger suffers the ordinary nonproficiency in addition to the -1 penalty.~
      @2 = ~COLLECTOR: Occasionally, humans will come into possession of items that either aren't theirs or are too dangerous for these short-lived beings to have. The Collector is there to make sure these things return to elf hands. The Collector's role in life is to retrieve things from dangerous places. Whether this item is a stolen suit of elven plate armor or an ancient, unearthed artifact, the Collector will get it back. When humans seem in danger of destroying things of beauty or of historical power, the Collector makes sure those objects are spirited away to safety. The Collector is not only a thief, but an archaeologist as well; <PRO_HESHE> uses all <PRO_HISHER> classes' skills to retrieve the items from wherever they lie, even deep beneath the earth, then keeps them from the hands of the elves' enemies.
@@ -1607,26 +1598,17 @@ The Windrider may only summon their mount outdoors.~
      @299 = ~Sylvan Hunting Techniques~
      @300 = ~Infiltrator's Manuscripts~
      @301 = ~Spellfilcher's License~
-// 25022-(BGEE) 31137-(BG2EE) 31137-(IWDEE)
-// Single-Weapon Style
-// 25046-(BGEE) 34174-(BG2EE) 37732-(IWDEE)
-     @1000 = ~SINGLE-WEAPON: This fighting style is for characters who do not wish to use a shield but want some bonus when using a one-handed melee weapon.
+// For Bladesong
+/*
+     @1000 = ~BLADESINGING:
+Although the cost is rather steep to learn bladesinging, its practitioners swear by it. Its wide versatility often astounds those who are not familiar with its intricacies. The things even an amateur bladesinger can do with one blade echo tricks that accomplished warriors can do with two, or with a weapon and shield. Those elves willing to devote two slots to learning the rudiments of bladesinging gain the use of the following benefits:
+1. They may gain a +1 bonus to their AC or, if they wish to spend an extra slot, may boost this bonus to +2 to their AC. That is the highest bonus those who choose blade-singing as an additional skill can attain. Or
+2. They may gain a +1 to hit or, if they wish to spend an extra slot, may boost this to a +2 to attack. As with the AC bonus, +2 is the best they can hope for. Or
+3. They may attack and parry in that same round, without wasting any additional attacks. Note that these three benefits are not cumulative; that is, practitioners cannot use all three at once. However, they do have the option of varying between these three options during the course of a combat.
 
-Proficient (1 slot): The wielder gets a -1 bonus to AC and inflicts critical damage on an attack roll of 19 or 20.
-
-Specialized (2 slots): The wielder gets a -2 bonus to AC and inflicts critical damage on an attack roll of 19 or 20.
-
-Master (3 slots): The wielder gets a -2 bonus to AC, a -1 bonus to speed, and inflicts critical damage on an attack roll of 19 or 20.
-
-High Master (4 slots): The wielder gets a -2 bonus to AC, a -2 bonus to speed, and inflicts critical damage on an attack roll of 19 or 20.
-
-Grand Master (5 slots): The wielder gets a -2 bonus to AC, a -2 bonus to speed, +1 to hit, and inflicts critical damage on an attack roll of 19 or 20.~
-//                  DAMAGE_RIGHT DAMAGE_LEFT THAC0_RIGHT THAC0_LEFT AC_BASE    AC_MISSILE SPEED      CRITICALROLL
-// SINGLEWEAPON-1   0            0           0           0          -1         0          0          1
-// SINGLEWEAPON-2   0            0           0           0          -2         0          0          1
-// SINGLEWEAPON-3   0            0           0           0          -2         0         -1          1
-// SINGLEWEAPON-4   0            0           0           0          -2         0         -2          1
-// SINGLEWEAPON-5   0            0          -1           0          -2         0         -2          1
+Disadvantages:
+The most obvious disadvantage to acquiring the bladesinging weapon style is that a character cannot carry a shield and practice the style at the same time. This technique requires far too much concentration on movement and flow, and the shield gets in the way of the grace and balance necessary to successfully use the style. A more esoteric disadvantage is that this style is most often used by loners-solitary individuals who have no desire to be part of a group. Rarely, this technique may be practiced by someone whose companions will part company with the PC for a decade. Since bladesinging is a very demanding style, the training is intense, difficult, and, above all, long. Therefore, a PC would be well advised to study this style in his or her early years before joining up with a group of adventurers-or else develop some long-lived and understanding friends.~
+*/
      @1001 = ~Fireball-Lightning Bolt~
      @1002 = ~Fireball-Lightning Bolt
 (Evocation)

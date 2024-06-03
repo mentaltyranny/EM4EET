@@ -1,13 +1,13 @@
 [MOD] Eldritch Magic EET v0.01a
 
-BG:EET v13.4
+Designed use with BG:EET v13.4
 
 Author: mentaltyranny@gmail.com
 
 Original Author: Eric.McLaughlin@Alumni.StonyBrook.edu
 "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/).
 
-Updated Mod Features
+**Updated Mod Features**
 
 	Kits (BG:EE/BG2:EE/IWD:EE):											Class:			Status:	
 	Abyssal Warrior - Chaotic Neutral/Evil, Tiefling warrior with minor demonic abilities.				Fighter kit*		Unknown

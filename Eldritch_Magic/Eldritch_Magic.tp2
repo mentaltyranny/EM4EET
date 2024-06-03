@@ -1,7 +1,7 @@
 BACKUP "Eldritch_Magic/backup"
 AUTHOR ~Eric.McLaughlin@Alumni.StonyBrook.edu~
 
-VERSION v1.68
+VERSION v2.0
 README ~Eldritch_Magic/README.txt~
 
 ALWAYS
@@ -11,12 +11,11 @@ INCLUDE ~Eldritch_Magic/Multiclass/qd_multiclass.tpa~
 INCLUDE ~Eldritch_Magic/lib/fnp_compat.tpa~
 END
 
-AUTO_TRA ~Eldritch_Magic/Languages/%s~
+AUTO_TRA ~Eldritch_Magic/languages/%s~
 
 LANGUAGE
-  ~English~
   ~english~
-  ~Eldritch_Magic/Languages/English/setup.tra~
+  ~Eldritch_Magic/languages/english/setup.tra~
 
 // "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
 
@@ -33,66 +32,6 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
 
 INCLUDE ~Eldritch_Magic/Components/Ioun.tpa~
 ////////////////////////////////////////////
-
-BEGIN ~START_XP - BGEE:SoD 161k & BG2EE 500k~ DESIGNATED 2
-GROUP @100
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @25
-
-INCLUDE ~Eldritch_Magic/Components/START_XP.tpa~
-////////////////////////////////////////////////
-
-BEGIN ~Remove XP Cap~ DESIGNATED 3
-GROUP @100
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~XP Cap Removal~
-
-INCLUDE ~Eldritch_Magic/Components/XP_Infinite.tpa~
-///////////////////////////////////////////////////
-BEGIN ~Remove XP Cap (BGEE:SoD up to HLAs - not included)~ DESIGNATED 4
-GROUP @100
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~XP Cap Removal~
-
-INCLUDE ~Eldritch_Magic/Components/XP_Max.tpa~
-//////////////////////////////////////////////
-
-BEGIN ~Multiclass Humans & Dualclass Demihumans~ DESIGNATED 5
-GROUP @100
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Remove Dual & Multi Class Restrictions~
-
-INCLUDE ~Eldritch_Magic/Components/Dual.tpa~
-INCLUDE ~Eldritch_Magic/Components/Multi.tpa~
-/////////////////////////////////////////////
-BEGIN ~Multiclass Humans~ DESIGNATED 6
-GROUP @100
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Remove Dual & Multi Class Restrictions~
-
-INCLUDE ~Eldritch_Magic/Components/Multi.tpa~
-/////////////////////////////////////////////
-BEGIN ~Dualclass Demihumans~ DESIGNATED 7
-GROUP @100
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Remove Dual & Multi Class Restrictions~
-
-INCLUDE ~Eldritch_Magic/Components/Dual.tpa~
-////////////////////////////////////////////
-
-//BEGIN ~Kitted Multiclasses (Credit to Aquadrizzt)~ DESIGNATED 99
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-
-//INCLUDE ~Eldritch_Magic/Components/EM_KittedMulti.tpa~
-
-// Mage 			1
-
-//BEGIN ~Archmage~ DESIGNATED 199
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-
-//INCLUDE ~Eldritch_Magic/Components/199_Archmage.tpa~
-////////////////////////////////////////////////////
 
 // Fighter			2
 
@@ -126,18 +65,11 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
 INCLUDE ~Eldritch_Magic/Components/301_Priestess_of_Lolth.tpa~
 //////////////////////////////////////////////////////////////
 
-// Thief			4
+// Thief				4
 
-// Bard		        	5
+// Bard					5
 
-//BEGIN ~Elven Minstrel~ DESIGNATED 500
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-
-//INCLUDE ~Eldritch_Magic/Components/500_Elven_Minstrel.tpa~
-//////////////////////////////////////////////////////////
-
-// Paladin			6
+// Paladin				6
 
 BEGIN ~Undead Hunter~ DESIGNATED 600
 GROUP @101
@@ -146,109 +78,38 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
 INCLUDE ~Eldritch_Magic/Components/600_Undead_Hunter.tpa~
 /////////////////////////////////////////////////////////
 
-// Fighter_Mage		        7
+// Fighter_Mage			7
 
 BEGIN ~Bladesinger~ DESIGNATED 700
 GROUP @101
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-// SUBCOMPONENT ~Bladesinger~
 
 INCLUDE ~Eldritch_Magic/Components/700_Bladesinger.tpa~
-///////////////////////////////////////////////////////
-/*
-BEGIN ~Bladesinger (Pre-2.0) Bard Kit - Not Recommended with Elven Minstrel or other Bards~ DESIGNATED 799
-GROUP @101
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Bladesinger~
-
-INCLUDE ~Eldritch_Magic/Components/799_Bladesinger.tpa~
-*/
 ///////////////////////////////////////////////////////
 
 BEGIN ~Eldritch Knight~ DESIGNATED 701
 GROUP @101
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Eldritch Knight~
 
 INCLUDE ~Eldritch_Magic/Components/701_Eldritch_Knight.tpa~
-///////////////////////////////////////////////////////////
-BEGIN ~Eldritch Knight (Pre-2.0)~ DESIGNATED 798
-GROUP @101
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Eldritch Knight~
-
-INCLUDE ~Eldritch_Magic/Components/798_Eldritch_Knight.tpa~
 ///////////////////////////////////////////////////////////
 
 BEGIN ~War Wizard~ DESIGNATED 702
 GROUP @101
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~War Wizard~
 
 INCLUDE ~Eldritch_Magic/Components/702_War_Wizard.tpa~
 ///////////////////////////////////////////////////////
-BEGIN ~War Wizard (Pre-2.0)~ DESIGNATED 797
-GROUP @101
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~War Wizard~
-
-INCLUDE ~Eldritch_Magic/Components/797_War_Wizard.tpa~
-//////////////////////////////////////////////////////
 
 // Fighter_Cleric		8
 
 // Fighter_Thief		9
 
-//BEGIN ~Huntsman~ DESIGNATED 900
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Huntsman~
+// Fighter_Mage_Thief	10
 
-//INCLUDE ~Eldritch_Magic/Components/900_Huntsman.tpa~
-////////////////////////////////////////////////////
-//BEGIN ~Huntsman (Pre-2.0)~ DESIGNATED 999
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Huntsman~
+// Druid				11
 
-//INCLUDE ~Eldritch_Magic/Components/999_Huntsman.tpa~
-////////////////////////////////////////////////////
-
-// Fighter_Mage_Thief   	10
-
-//BEGIN ~Collector~ DESIGNATED 1000
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Collector~
-
-//INCLUDE ~Eldritch_Magic/Components/1000_Collector.tpa~
-//////////////////////////////////////////////////////
-//BEGIN ~Collector (Pre-2.0)~ DESIGNATED 1099
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Collector~
-
-//INCLUDE ~Eldritch_Magic/Components/1099_Collector.tpa~
-//////////////////////////////////////////////////////
-
-//BEGIN ~Infiltrator~ DESIGNATED 1001
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Infiltrator~
-
-//INCLUDE ~Eldritch_Magic/Components/1001_Infiltrator.tpa~
-////////////////////////////////////////////////////////
-//BEGIN ~Infiltrator (Pre-2.0)~ DESIGNATED 1098
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Infiltrator~
-
-//INCLUDE ~Eldritch_Magic/Components/1098_Infiltrator.tpa~
-////////////////////////////////////////////////////////
-
-// Druid			11
-
-// Ranger			12
+// Ranger				12
 
 BEGIN ~Wilderness Runner~ DESIGNATED 1200
 GROUP @101
@@ -257,45 +118,22 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
 INCLUDE ~Eldritch_Magic/Components/1200_Wilderness_Runner.tpa~
 //////////////////////////////////////////////////////////////
 
-// Mage_Thief		        13
+// Mage_Thief			13
 
-//BEGIN ~Spellfilcher~ DESIGNATED 1300
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Spellfilcher~
-
-//INCLUDE ~Eldritch_Magic/Components/1300_Spellfilcher.tpa~
-/////////////////////////////////////////////////////////
-//BEGIN ~Spellfilcher (Pre-2.0)~ DESIGNATED 1399
-//GROUP @101
-//REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-//SUBCOMPONENT ~Spellfilcher~
-
-//INCLUDE ~Eldritch_Magic/Components/1399_Spellfilcher.tpa~
-/////////////////////////////////////////////////////////
-
-// Cleric_Mage	        	14
+// Cleric_Mage	        14
 
 BEGIN ~Priest of Mystra~ DESIGNATED 1400
 GROUP @101
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Priest of Mystra~
 
 INCLUDE ~Eldritch_Magic/Components/1400_Priest_of_Mystra.tpa~
 /////////////////////////////////////////////////////////////
-BEGIN ~Priest of Mystra (Pre-2.0)~ DESIGNATED 1499
-GROUP @101
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-SUBCOMPONENT ~Priest of Mystra~
 
-INCLUDE ~Eldritch_Magic/Components/1499_Priest_of_Mystra.tpa~
-/////////////////////////////////////////////////////////////
-
-// Cleric_Thief		        15
+// Cleric_Thief			15
 
 // Fighter_Druid		16
 
-// Fighter_Mage_Cleric	        17
+// Fighter_Mage_Cleric	17
 
 // Cleric_Ranger		18
 
@@ -303,36 +141,4 @@ INCLUDE ~Eldritch_Magic/Components/1499_Priest_of_Mystra.tpa~
 
 // Monk		        	20
 
-// Shaman			21
-
-// BEGIN ~Clerics, Druids, & Rangers of the Seldarine~ DESIGNATED 2200
-// GROUP @101
-// REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @25
-// SUBCOMPONENT ~the components from [Kits: Clergy of the Seldarine]~
-
-// INCLUDE ~Eldritch_Magic/Components/2200_Clerics.tpa~
-// INCLUDE ~Eldritch_Magic/Components/2200_Druids.tpa~
-// INCLUDE ~Eldritch_Magic/Components/2200_Rangers.tpa~
- ////////////////////////////////////////////////////
-
-//  BEGIN ~the kits from [Kits: Clergy of the Seldarine] by class~ DESIGNATED 2201
-//  SUBCOMPONENT ~the components from [Kits: Clergy of the Seldarine]~
-  //////////////////////////////////////////////////////////////////
-
-//  BEGIN ~the Clerics from [Kits: Clergy of the Seldarine]~ DESIGNATED 2202
-//  REQUIRE_COMPONENT ~Eldritch_Magic.tp2~ ~2201~ ~skipping~
-
-//  INCLUDE ~Eldritch_Magic/Components/2200_Clerics.tpa~
-  ////////////////////////////////////////////////////
-
-//  BEGIN ~the Druids from [Kits: Clergy of the Seldarine]~ DESIGNATED 2203
-//  REQUIRE_COMPONENT ~Eldritch_Magic.tp2~ ~2201~ ~skipping~
-
-//  INCLUDE ~Eldritch_Magic/Components/2200_Druids.tpa~
-  ///////////////////////////////////////////////////
-
-//  BEGIN ~the Rangers from [Kits: Clergy of the Seldarine]~ DESIGNATED 2204
-//  REQUIRE_COMPONENT ~Eldritch_Magic.tp2~ ~2201~ ~skipping~
-
-//  INCLUDE ~Eldritch_Magic/Components/2200_Rangers.tpa~
-  ////////////////////////////////////////////////////
+// Shaman				21
