@@ -2,7 +2,7 @@
 
 Designed use with BG:EET v13.4
 
-Author: mentaltyranny@gmail.com
+Author: mindtyrant1024@gmail.com
 
 Original Author: Eric.McLaughlin@Alumni.StonyBrook.edu
 "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/).
